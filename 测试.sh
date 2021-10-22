@@ -1,5 +1,5 @@
 
-1.preprocess
+# 1.preprocess
 
 BASE=rotowire
 PART=dataset
@@ -21,7 +21,7 @@ python preprocess.py \
 -save_data $BASE/preprocess/${KEY} \
 -src_seq_length 1000 -dynamic_dict -tgt_seq_length 1000
 
-2.train
+# 2.train
 
 BASE=rotowire
 IDENTIFIER=cc
